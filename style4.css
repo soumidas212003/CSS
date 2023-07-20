@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#head{
+    height: 60px;
+    background-color: black;
+    
+}   
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 230px;
+    text-decoration: none;
+}
+.main{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    display: inline-block;
+    margin: 50px;
+    text-align: center;
+}
+#one{    
+    background-color: rgba(255, 0, 0, 0.5);  
+}
+#two{
+    background-color: rgba(0,255, 0, 0.5);
+}
+#three{
+    background-color: rgba(0,0,255, 0.5);
+}
+#area{
+    height: 670px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
