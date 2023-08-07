@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+    background-color: rgb(11, 67, 222);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#outer{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+}
+p{
+    color: black;
+}
