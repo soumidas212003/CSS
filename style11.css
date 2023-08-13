@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 95, 132);
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(88, 8, 22);
+    font-size: 25px;
+    /*transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-timing-function: ease-in;
+    transition-delay: 1s;*/
+    transition: all 2s ease-in 1s;
+}
+div:hover{
+    background-color: red;
+    color:white;
+    font-size: 30px;
+}
+div:active{
+    background-color: rgb(35, 193, 35);
+    color: white;
+}
