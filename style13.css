@@ -1,0 +1,48 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /*animation-name: colorAnimate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;*/
+    /*animation-direction: normal;*/
+    /*animation-direction: reverse;*/
+    /*animation-direction: alternate;*/
+    animation: colorAnimate 1s ease-in 0s infinite alternate;
+}
+
+@keyframes colorAnimate {
+
+    /*form {background-color: pink;}
+    to {background-color: rgb(176, 33, 212)}*/
+    /*form {
+        left: 0px;
+        background-color: pink;
+    }
+
+    to {
+        left: 200px;
+        background-color: blueviolet;
+    }*/
+    0% {
+        left: 0px;
+        background-color: pink;
+    }
+
+    100% {
+        background-color: blueviolet;
+    }
+    200%{
+        left: 200px;
+        background-color: yellow;
+    }
+}
