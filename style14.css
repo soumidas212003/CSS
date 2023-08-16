@@ -1,0 +1,31 @@
+#outer{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outer2{
+    height: 0.10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 5px dotted #545f66;
+    border-top: 5px dotted #829399;
+    border-right: 5px dotted black ;
+    animation: SpinAnimate 3s steps(10) 0s infinite normal;  
+}
+@keyframes SpinAnimate{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
